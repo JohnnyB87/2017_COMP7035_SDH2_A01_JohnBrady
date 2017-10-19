@@ -23,8 +23,7 @@ public class MyMain {
 		//	2. isEmpty 
 		//-------------------------------------
 		System.out.println("Is it empty: " + m.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
-		System.out.println("Testing link to GitHub");
-		System.out.println("");
+
 		//-------------------------------------
 		//	3. Add three elements 
 		//-------------------------------------
