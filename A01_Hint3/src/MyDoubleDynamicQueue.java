@@ -61,6 +61,10 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 		if(this.numItems <= 0) {
 			System.out.println("ERROR: list is empty.");
 			this.numItems = 0;
+			if(this.tail != null) {
+				this.tail.setInfo(null);
+				this.head.setInfo(null);
+			}
 			this.head = this.tail = null;
 		}
 		else{
@@ -107,6 +111,10 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 		if(this.numItems <= 0) {
 			System.out.println("ERROR: list is empty.");
 			this.numItems = 0;
+			if(this.tail != null) {
+				this.tail.setInfo(null);
+				this.head.setInfo(null);
+			}
 			this.head = this.tail = null;
 		}
 		else{
