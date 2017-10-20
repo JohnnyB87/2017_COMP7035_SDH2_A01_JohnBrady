@@ -4,11 +4,11 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//--------------------------------------------------
 	// Attributes
 	//--------------------------------------------------
-	MyDoubleLinkedNode<T> head;
-	MyDoubleLinkedNode<T> tail;
-	MyDoubleLinkedNode<T> originalHead;
-	MyDoubleLinkedNode<T> originalTail;
-	int numItems;
+	private MyDoubleLinkedNode<T> head;
+	private MyDoubleLinkedNode<T> tail;
+	private MyDoubleLinkedNode<T> originalHead;
+	private MyDoubleLinkedNode<T> originalTail;
+	private int numItems;
 	
 	//-------------------------------------------------------------------
 	// Basic Operation --> Check if myQueue is empty: myCreateEmpty

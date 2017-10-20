@@ -4,7 +4,6 @@
     <list default="true" id="7cb78b8e-fa77-4356-b8a0-32ece63e753d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" afterPath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyQueue.java" afterPath="$PROJECT_DIR$/src/MyQueue.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +18,11 @@
       <file leaf-file-name="MyDoubleDynamicQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
-                <element signature="e#907#908#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#947#948#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +72,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/MyMain.java" />
-        <option value="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
         <option value="$PROJECT_DIR$/src/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
       </list>
     </option>
   </component>
@@ -257,7 +256,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508449996690</updated>
-      <workItem from="1508450000651" duration="12731000" />
+      <workItem from="1508450000651" duration="12876000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented basic operations, 1 line methods">
       <created>1508453088057</created>
@@ -315,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508504266711</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed both toString methods">
+      <created>1508504387804</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508504387804</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12731000" />
+    <option name="totallyTimeSpent" value="12876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -369,7 +375,8 @@
     <MESSAGE value="Remove redundant attributes" />
     <MESSAGE value="Test to see if left and right are linked" />
     <MESSAGE value="removed redundant statements in the removeByFirst and the removeByLast methods. Set that all nodes are null if this.itemNum == 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed redundant statements in the removeByFirst and the removeByLast methods. Set that all nodes are null if this.itemNum == 0" />
+    <MESSAGE value="Removed both toString methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed both toString methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -402,11 +409,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
           </folding>
         </state>
       </provider>
