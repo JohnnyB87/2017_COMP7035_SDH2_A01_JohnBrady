@@ -9,16 +9,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	MyDoubleLinkedNode<T> originalHead;
 	MyDoubleLinkedNode<T> originalTail;
 	int numItems;
-	int tailItems;
-	int headItems;
 	
 	//-------------------------------------------------------------------
 	// Basic Operation --> Check if myQueue is empty: myCreateEmpty
 	//-------------------------------------------------------------------	
 	public MyDoubleDynamicQueue(){
 		this.numItems = 0;
-		this.headItems = 0;
-		this.tailItems = 0;
 		this.originalHead = this.head = null;
 		this.originalTail = this.tail = null;
 	}
@@ -53,7 +49,6 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 			currentNode.setLeft(this.head);
 		}
 		this.numItems++;
-		this.headItems++;
 	}
 	
 	//-------------------------------------------------------------------
@@ -69,14 +64,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 			nextNode = currentNode.getRight();
 			this.originalTail = nextNode;
 			this.numItems--;
-			this.tailItems--;
 		}
 		else{
 			currentNode = this.head;
 			nextNode = currentNode.getRight();
 			this.head = nextNode;
 			this.numItems--;
-			this.headItems--;
 		}
 	}
 
@@ -103,7 +96,6 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 			currentNode.setRight(this.tail);
 		}
 		this.numItems++;
-		this.tailItems++;
 	}
 	
 	//-------------------------------------------------------------------
@@ -119,14 +111,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 			nextNode = currentNode.getLeft();
 			this.originalHead = nextNode;
 			this.numItems--;
-			this.headItems--;
 		}
 		else{
 			currentNode = this.tail;
 			nextNode = currentNode.getLeft();
 			this.tail = nextNode;
 			this.numItems--;
-			this.tailItems--;
 		}
 	}
 
