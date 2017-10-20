@@ -29,7 +29,7 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------
 	public T first(){
 		if(this.numItems == 0) {
-			System.out.println("ERROR: list is empty.");
+			resetAttributes();
 			return null;
 		}
 		return this.head.getInfo();
@@ -39,10 +39,8 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation --> Add element to back of MyQueue: addByFirst 
 	//-------------------------------------------------------------------
 	public void addByFirst(T element){
-		if(this.head == null) {
-			this.head = new MyDoubleLinkedNode<>(null, element, null);
-			this.tail = this.head;
-		}
+		if(this.head == null)
+			this.head = this.tail = new MyDoubleLinkedNode<>(null, element, null);
 		else {
 			MyDoubleLinkedNode<T> currentNode = this.head;
 			this.head = new MyDoubleLinkedNode<>(null,element,currentNode);
@@ -55,23 +53,11 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Remove element from front of MyQueue: removeByFirst 
 	//-------------------------------------------------------------------	
 	public void removeByFirst(){
-		MyDoubleLinkedNode<T> currentNode;
-		MyDoubleLinkedNode<T> nextNode;
 		this.numItems--;
-		if(this.numItems <= 0) {
-			System.out.println("ERROR: list is empty.");
-			this.numItems = 0;
-			if(this.head != null || this.tail != null) {
-				this.tail.setInfo(null);
-				this.head.setInfo(null);
-			}
-			this.head = this.tail = null;
-		}
-		else{
-			currentNode = this.head;
-			nextNode = currentNode.getRight();
-			this.head = nextNode;
-		}
+		if(this.numItems <= 0)
+			resetAttributes();
+		else
+			this.head = this.head.getRight();
 	}
 
 	//-------------------------------------------------------------------
@@ -79,7 +65,7 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------
 	public T last(){
 		if(this.numItems == 0) {
-			System.out.println("ERROR: list is empty.");
+			resetAttributes();
 			return null;
 		}
 		return this.tail.getInfo();
@@ -89,10 +75,8 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation --> Add element to back of MyQueue: addByLast 
 	//-------------------------------------------------------------------
 	public void addByLast(T element){
-		if(this.tail == null){
-			this.tail = new MyDoubleLinkedNode<>(null,element,null);
-			this.head = this.tail;
-		}
+		if(this.tail == null)
+			this.head = this.tail = new MyDoubleLinkedNode<>(null,element,null);
 		else{
 			MyDoubleLinkedNode<T> currentNode = this.tail;
 			this.tail = new MyDoubleLinkedNode<>(currentNode,element,null);
@@ -105,22 +89,20 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Remove element from front of MyQueue: removeByFirst 
 	//-------------------------------------------------------------------	
 	public void removeByLast(){
-		MyDoubleLinkedNode<T> currentNode;
-		MyDoubleLinkedNode<T> nextNode;
 		this.numItems--;
-		if(this.numItems <= 0) {
-			System.out.println("ERROR: list is empty.");
-			this.numItems = 0;
-			if(this.head != null || this.tail != null) {
-				this.tail.setInfo(null);
-				this.head.setInfo(null);
-			}
-			this.head = this.tail = null;
+		if(this.numItems <= 0)
+			resetAttributes();
+		else
+			this.tail = this.tail.getLeft();
+	}
+
+	private void resetAttributes(){
+		System.out.println("ERROR: list is empty.");
+		this.numItems = 0;
+		if(this.head != null || this.tail != null) {
+			this.tail.setInfo(null);
+			this.head.setInfo(null);
 		}
-		else{
-			currentNode = this.tail;
-			nextNode = currentNode.getLeft();
-			this.tail = nextNode;
-		}
+		this.head = this.tail = null;
 	}
 }
