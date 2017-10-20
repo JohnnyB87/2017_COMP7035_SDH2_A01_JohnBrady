@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyDoubleDynamicQueue.class" afterPath="$PROJECT_DIR$/bin/MyDoubleDynamicQueue.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyMain.class" afterPath="$PROJECT_DIR$/bin/MyMain.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" afterPath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -268,7 +267,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508449996690</updated>
-      <workItem from="1508450000651" duration="16497000" />
+      <workItem from="1508450000651" duration="16580000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented basic operations, 1 line methods">
       <created>1508453088057</created>
@@ -354,11 +353,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508505589116</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed possible error in last and first methods. now return null">
+      <created>1508521973640</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1508521973640</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16497000" />
+    <option name="totallyTimeSpent" value="16580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -412,7 +418,8 @@
     <MESSAGE value="Set attributes to private" />
     <MESSAGE value="Removed redundant statements in the addByFirst and addByLast methods" />
     <MESSAGE value="Completed working project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed working project" />
+    <MESSAGE value="Fixed possible error in last and first methods. now return null" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed possible error in last and first methods. now return null" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
