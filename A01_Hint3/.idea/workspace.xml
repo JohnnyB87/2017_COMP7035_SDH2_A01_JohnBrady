@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb78b8e-fa77-4356-b8a0-32ece63e753d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyDoubleDynamicQueue.class" afterPath="$PROJECT_DIR$/bin/MyDoubleDynamicQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyDoubleLinkedNode.class" afterPath="$PROJECT_DIR$/bin/MyDoubleLinkedNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyMain.class" afterPath="$PROJECT_DIR$/bin/MyMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyQueue.class" afterPath="$PROJECT_DIR$/bin/MyQueue.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" afterPath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyMain.java" afterPath="$PROJECT_DIR$/src/MyMain.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="MyDoubleDynamicQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="397">
+              <caret line="127" column="28" lean-forward="true" selection-start-line="127" selection-start-column="28" selection-end-line="128" selection-end-column="29" />
               <folding>
                 <element signature="e#983#984#0" expanded="true" />
                 <element signature="e#1015#1016#0" expanded="true" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="MyMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="55" column="71" lean-forward="true" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+            <state relative-caret-position="132">
+              <caret line="63" column="127" lean-forward="false" selection-start-line="63" selection-start-column="127" selection-end-line="63" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -64,6 +62,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/MyMain.java" />
         <option value="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
       </list>
     </option>
@@ -247,7 +246,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508449996690</updated>
-      <workItem from="1508450000651" duration="6800000" />
+      <workItem from="1508450000651" duration="8411000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented basic operations, 1 line methods">
       <created>1508453088057</created>
@@ -270,11 +269,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508498391264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented the addByFirst and addByLast methods">
+      <created>1508498426659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1508498426659</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6800000" />
+    <option name="totallyTimeSpent" value="8411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -345,16 +351,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="55" column="71" lean-forward="true" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+        <state relative-caret-position="132">
+          <caret line="63" column="127" lean-forward="false" selection-start-line="63" selection-start-column="127" selection-end-line="63" selection-end-column="127" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="397">
+          <caret line="127" column="28" lean-forward="true" selection-start-line="127" selection-start-column="28" selection-end-line="128" selection-end-column="29" />
           <folding>
             <element signature="e#983#984#0" expanded="true" />
             <element signature="e#1015#1016#0" expanded="true" />

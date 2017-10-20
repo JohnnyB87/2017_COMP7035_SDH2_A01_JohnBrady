@@ -44,12 +44,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------
 	public void addByFirst(T element){
 		if(this.head == null) {
-			this.head = new MyDoubleLinkedNode<T>(null, element, this.originalTail);
+			this.head = new MyDoubleLinkedNode<>(null, element, this.originalTail);
 			this.originalHead = this.head;
 		}
 		else {
 			MyDoubleLinkedNode<T> currentNode = this.head;
-			this.head = new MyDoubleLinkedNode<T>(null,element,currentNode);
+			this.head = new MyDoubleLinkedNode<>(null,element,currentNode);
 			currentNode.setLeft(this.head);
 		}
 		this.numItems++;
@@ -60,13 +60,23 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Remove element from front of MyQueue: removeByFirst 
 	//-------------------------------------------------------------------	
 	public void removeByFirst(){
+		MyDoubleLinkedNode<T> currentNode;
+		MyDoubleLinkedNode<T> nextNode;
 		if(this.numItems == 0)
 			System.out.println("ERROR: list is empty.");
 		else if(this.head == null){
-
+			currentNode = this.originalTail;
+			nextNode = currentNode.getRight();
+			this.originalTail = nextNode;
+			this.numItems--;
+			this.tailItems--;
 		}
 		else{
-
+			currentNode = this.head;
+			nextNode = currentNode.getRight();
+			this.head = nextNode;
+			this.numItems--;
+			this.headItems--;
 		}
 	}
 
@@ -84,12 +94,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------
 	public void addByLast(T element){
 		if(this.tail == null){
-			this.tail = new MyDoubleLinkedNode<T>(this.originalHead,element,null);
+			this.tail = new MyDoubleLinkedNode<>(this.originalHead,element,null);
 			this.originalTail = this.tail;
 		}
 		else{
 			MyDoubleLinkedNode<T> currentNode = this.tail;
-			this.tail = new MyDoubleLinkedNode<T>(currentNode,element,null);
+			this.tail = new MyDoubleLinkedNode<>(currentNode,element,null);
 			currentNode.setRight(this.tail);
 		}
 		this.numItems++;
@@ -100,7 +110,24 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Remove element from front of MyQueue: removeByFirst 
 	//-------------------------------------------------------------------	
 	public void removeByLast(){
-
+		MyDoubleLinkedNode<T> currentNode;
+		MyDoubleLinkedNode<T> nextNode;
+		if(this.numItems == 0)
+			System.out.println("ERROR: list is empty.");
+		else if(this.tail == null){
+			currentNode = this.originalHead;
+			nextNode = currentNode.getLeft();
+			this.originalHead = nextNode;
+			this.numItems--;
+			this.headItems--;
+		}
+		else{
+			currentNode = this.tail;
+			nextNode = currentNode.getLeft();
+			this.tail = nextNode;
+			this.numItems--;
+			this.tailItems--;
+		}
 	}
 
 }
