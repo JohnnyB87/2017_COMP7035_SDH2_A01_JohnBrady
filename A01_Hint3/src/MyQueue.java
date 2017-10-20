@@ -70,5 +70,8 @@ public interface MyQueue<T> {
 	 * Given a concrete MyQueue, remove an item by its tail.<br>
 	 */	
 	public void removeByLast();
-	
+
+	public String headToString();
+
+	public String tailToString();
 }
