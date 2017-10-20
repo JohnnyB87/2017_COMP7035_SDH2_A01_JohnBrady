@@ -71,7 +71,4 @@ public interface MyQueue<T> {
 	 */	
 	public void removeByLast();
 
-	public String headToString();
-
-	public String tailToString();
 }

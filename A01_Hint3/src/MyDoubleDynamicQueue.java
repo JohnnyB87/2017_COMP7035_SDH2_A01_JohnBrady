@@ -130,31 +130,4 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 		}
 	}
 
-	public String tailToString(){
-		String str = "";
-		int count = 0;
-		MyDoubleLinkedNode<T> currentNode = this.tail;
-		MyDoubleLinkedNode<T> nextNode;
-		while(count < this.numItems){
-			str += currentNode.getInfo() + ", ";
-			nextNode = currentNode.getLeft();
-			currentNode = nextNode;
-			count++;
-		}
-		return str;
-	}
-
-	public String headToString(){
-		String str = "";
-		int count = 0;
-		MyDoubleLinkedNode<T> currentNode = this.head;
-		MyDoubleLinkedNode<T> nextNode;
-		while(count < this.numItems){
-			str += currentNode.getInfo() + ", ";
-			nextNode = currentNode.getRight();
-			currentNode = nextNode;
-			count++;
-		}
-		return str;
-	}
 }
