@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb78b8e-fa77-4356-b8a0-32ece63e753d" name="Default" comment="Implemented basic operations, 1 line methods">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../A01_Hint1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../A01_Hint1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../A01_Hint1/src/MyMain.java" afterPath="$PROJECT_DIR$/../A01_Hint1/src/MyMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -229,7 +228,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508449996690</updated>
-      <workItem from="1508450000651" duration="4689000" />
+      <workItem from="1508450000651" duration="5280000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented basic operations, 1 line methods">
       <created>1508453088057</created>
@@ -249,7 +248,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4689000" />
+    <option name="totallyTimeSpent" value="5280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

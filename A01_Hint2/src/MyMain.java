@@ -28,7 +28,7 @@ public class MyMain {
 		//	3. Add three elements 
 		//-------------------------------------
 		m.add(3); //--> m : [3]
-		m.add(4);	//--> m : [3, 4]	
+		m.add(4);	//--> m : [3, 4]
 		m.add(5); //--> m : [3, 4, 5]
 		m.add(6); //--> m : [3, 4, 5, 6]
 		System.out.println("Is it empty: " + m.isEmpty());

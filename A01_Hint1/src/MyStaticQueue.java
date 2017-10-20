@@ -41,10 +41,8 @@ public class MyStaticQueue implements MyQueue {
 	public void add(int element){
 		if (this.numItems == this.maxItems) 
 			System.out.println("Queue is full.");
-		else {
-			this.items[this.numItems] = element;
-			this.numItems++;
-		}
+		else
+			this.items[this.numItems++] = element;
 	}
 	
 	//-------------------------------------------------------------------
@@ -59,12 +57,5 @@ public class MyStaticQueue implements MyQueue {
 		else
 			System.out.println("Array is empty");
 	}
-	
-	public String toString() {
-		String str = "";
-		for(int i=0; i<items.length; i++) 
-			str = i < this.items.length-1 ?
-					str + this.items[i]+", ": str + this.items[i];
-		return str;
-	}
+
 }
