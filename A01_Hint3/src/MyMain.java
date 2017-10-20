@@ -38,9 +38,6 @@ public class MyMain {
 		m1.addByLast(6); //--> m1 : [4, 3, 6]
 		m1.addByLast(5); //--> m1 : [4, 3, 6, 5]
 
-		System.out.println(m1.headToString());
-		System.out.println(m1.tailToString());
-
 		System.out.println("Is m1 empty? " + m1.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
 		System.out.println("Is m2 empty? " + m2.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
 						
