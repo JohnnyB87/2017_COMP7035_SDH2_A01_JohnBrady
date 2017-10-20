@@ -18,8 +18,8 @@
       <file leaf-file-name="MyDoubleDynamicQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="272">
+              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
               <folding>
                 <element signature="e#947#948#0" expanded="true" />
                 <element signature="e#979#980#0" expanded="true" />
@@ -256,7 +256,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508449996690</updated>
-      <workItem from="1508450000651" duration="12876000" />
+      <workItem from="1508450000651" duration="13191000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented basic operations, 1 line methods">
       <created>1508453088057</created>
@@ -321,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508504387804</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Set attributes to private">
+      <created>1508504516263</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1508504516263</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12876000" />
+    <option name="totallyTimeSpent" value="13191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,7 +383,8 @@
     <MESSAGE value="Test to see if left and right are linked" />
     <MESSAGE value="removed redundant statements in the removeByFirst and the removeByLast methods. Set that all nodes are null if this.itemNum == 0" />
     <MESSAGE value="Removed both toString methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed both toString methods" />
+    <MESSAGE value="Set attributes to private" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set attributes to private" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
           <folding>
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#979#980#0" expanded="true" />

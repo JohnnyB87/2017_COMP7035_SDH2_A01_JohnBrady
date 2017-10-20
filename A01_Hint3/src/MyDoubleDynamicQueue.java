@@ -41,10 +41,8 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	public void addByFirst(T element){
 		if(this.head == null) {
 			this.head = new MyDoubleLinkedNode<>(null, element, this.originalTail);
-			if(this.originalTail != null) {
+			if(this.originalTail != null)
 				this.originalTail.setLeft(this.head);
-				this.head.setRight(this.originalTail);
-			}
 			else{
 				this.tail = this.head;
 				this.originalTail = this.tail;
@@ -93,10 +91,8 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	public void addByLast(T element){
 		if(this.tail == null){
 			this.tail = new MyDoubleLinkedNode<>(this.originalHead,element,null);
-			if(this.originalHead != null) {
+			if(this.originalHead != null)
 				this.originalHead.setRight(this.tail);
-				this.tail.setLeft(this.originalHead);
-			}
 			else{
 				this.head = this.tail;
 				this.originalHead = this.head;
