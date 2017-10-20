@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb78b8e-fa77-4356-b8a0-32ece63e753d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyDoubleDynamicQueue.class" afterPath="$PROJECT_DIR$/bin/MyDoubleDynamicQueue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyMain.class" afterPath="$PROJECT_DIR$/bin/MyMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/MyQueue.class" afterPath="$PROJECT_DIR$/bin/MyQueue.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" afterPath="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyMain.java" afterPath="$PROJECT_DIR$/src/MyMain.java" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +21,8 @@
       <file leaf-file-name="MyDoubleDynamicQueue.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="833">
+              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
               <folding>
                 <element signature="e#947#948#0" expanded="true" />
                 <element signature="e#979#980#0" expanded="true" />
@@ -41,8 +44,8 @@
       <file leaf-file-name="MyMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+            <state relative-caret-position="686">
+              <caret line="55" column="71" lean-forward="false" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -71,9 +74,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MyMain.java" />
         <option value="$PROJECT_DIR$/src/MyQueue.java" />
         <option value="$PROJECT_DIR$/src/MyDoubleDynamicQueue.java" />
+        <option value="$PROJECT_DIR$/src/MyMain.java" />
       </list>
     </option>
   </component>
@@ -256,7 +259,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508449996690</updated>
-      <workItem from="1508450000651" duration="13191000" />
+      <workItem from="1508450000651" duration="13943000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented basic operations, 1 line methods">
       <created>1508453088057</created>
@@ -328,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508504516263</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Removed redundant statements in the addByFirst and addByLast methods">
+      <created>1508504850254</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508504850254</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13191000" />
+    <option name="totallyTimeSpent" value="13943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -346,7 +356,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.50208336" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -384,7 +394,8 @@
     <MESSAGE value="removed redundant statements in the removeByFirst and the removeByLast methods. Set that all nodes are null if this.itemNum == 0" />
     <MESSAGE value="Removed both toString methods" />
     <MESSAGE value="Set attributes to private" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set attributes to private" />
+    <MESSAGE value="Removed redundant statements in the addByFirst and addByLast methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant statements in the addByFirst and addByLast methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -399,14 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -415,10 +418,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="55" column="71" lean-forward="false" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyDoubleDynamicQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="833">
+          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding>
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#979#980#0" expanded="true" />
