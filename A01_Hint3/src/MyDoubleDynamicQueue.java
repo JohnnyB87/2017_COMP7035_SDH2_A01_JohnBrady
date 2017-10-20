@@ -30,8 +30,10 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Get first element from front of MyQueue: first
 	//-------------------------------------------------------------------
 	public T first(){
-		if(this.numItems == 0)
-			return (T) "ERROR: list is empty.";
+		if(this.numItems == 0) {
+			System.out.println("ERROR: list is empty.");
+			return null;
+		}
 		return this.head.getInfo();
 	}
 
@@ -80,8 +82,10 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Get first element from front of MyQueue: last
 	//-------------------------------------------------------------------
 	public T last(){
-		if(this.numItems == 0)
-			return (T) "ERROR: list is empty.";
+		if(this.numItems == 0) {
+			System.out.println("ERROR: list is empty.");
+			return null;
+		}
 		return this.tail.getInfo();
 	}
 
