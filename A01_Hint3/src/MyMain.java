@@ -28,7 +28,7 @@ public class MyMain {
 		//-------------------------------------
 		System.out.println("Is m1 empty? " + m1.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
 		System.out.println("Is m2 empty? " + m2.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
-		System.out.println(m1.first());
+
 		//-------------------------------------
 		//	3. Add some elements 
 		//-------------------------------------
@@ -38,8 +38,6 @@ public class MyMain {
 		m1.addByLast(6); //--> m1 : [4, 3, 6]
 		m1.addByLast(5); //--> m1 : [4, 3, 6, 5]
 
-		System.out.println(m1.toString());
-
 		System.out.println("Is m1 empty? " + m1.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
 		System.out.println("Is m2 empty? " + m2.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
 						
@@ -47,29 +45,18 @@ public class MyMain {
 		m2.addByLast(false); //--> m2 : [true, false]
 		m2.addByLast(true); //--> m2 : [true, false, true]
 
-		System.out.println(m2.toString());
 		//-------------------------------------
 		//	4. Get the first item in myQueue   
 		//-------------------------------------	
 		System.out.println("First item = " + m1.first()); //--> Returns 4
-
-		System.out.println(m1.toString());
 		m1.removeByFirst();
 		System.out.println("First item = " + m1.first()); //--> Returns 3
-
-		System.out.println(m1.toString());
 		m1.removeByFirst();
 		
 		System.out.println("Last item = " + m1.last()); //--> Returns 5
-
-		System.out.println(m1.toString());
 		m1.removeByLast();
 		System.out.println("Last item = " + m1.last()); //--> Returns 6
-
-		System.out.println(m1.toString());
 		m1.removeByLast();
-
-		System.out.println(m1.toString());
 		
 		//-------------------------------------
 		//	5. Remove two elements and fail to remove another one
