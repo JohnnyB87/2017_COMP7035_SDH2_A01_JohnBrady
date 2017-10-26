@@ -90,7 +90,7 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Remove element from front of MyQueue: removeByFirst 
 	//-------------------------------------------------------------------	
 	public void removeByLast(){
-		if(this.numItems < 0)
+		if(this.numItems == 0)
 			System.out.println("ERROR: List is empty.");
 		else{
 			this.tail = this.tail.getLeft();
