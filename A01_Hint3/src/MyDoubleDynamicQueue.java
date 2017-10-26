@@ -53,13 +53,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Remove element from front of MyQueue: removeByFirst 
 	//-------------------------------------------------------------------	
 	public void removeByFirst(){
-		this.numItems--;
-		if(this.numItems < 0) {
+		if(this.numItems == 0)
 			System.out.println("ERROR: List is empty.");
-			this.numItems = 0;
-		}
-		else
+		else{
 			this.head = this.head.getRight();
+			this.numItems--;
+		}
 	}
 
 	//-------------------------------------------------------------------
@@ -91,13 +90,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	// Basic Operation (Partial) --> Remove element from front of MyQueue: removeByFirst 
 	//-------------------------------------------------------------------	
 	public void removeByLast(){
-		this.numItems--;
-		if(this.numItems < 0){
+		if(this.numItems == 0)
 			System.out.println("ERROR: List is empty.");
-			this.numItems = 0;
-		}
-		else
+		else{
 			this.tail = this.tail.getLeft();
+			this.numItems--;
+		}
 	}
 
 }
