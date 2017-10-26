@@ -64,6 +64,7 @@ public class MyMain {
 		System.out.println("Is m1 empty? " + m1.isEmpty()); //--> The current length is 0 as myQueue is created initially empty
 		m1.removeByFirst();
 		m1.removeByLast();
+		System.out.println(m1.last());
 	}
 	
 	//-------------------------------------

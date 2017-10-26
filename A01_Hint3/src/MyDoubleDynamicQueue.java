@@ -29,7 +29,7 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------
 	public T first(){
 		if(this.numItems == 0) {
-			resetAttributes();
+			System.out.println("ERROR: List is empty.");
 			return null;
 		}
 		return this.head.getInfo();
@@ -54,8 +54,10 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------	
 	public void removeByFirst(){
 		this.numItems--;
-		if(this.numItems <= 0)
-			resetAttributes();
+		if(this.numItems < 0) {
+			System.out.println("ERROR: List is empty.");
+			this.numItems = 0;
+		}
 		else
 			this.head = this.head.getRight();
 	}
@@ -65,7 +67,7 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------
 	public T last(){
 		if(this.numItems == 0) {
-			resetAttributes();
+			System.out.println("ERROR: List is empty.");
 			return null;
 		}
 		return this.tail.getInfo();
@@ -90,19 +92,12 @@ public class MyDoubleDynamicQueue<T> implements MyQueue<T> {
 	//-------------------------------------------------------------------	
 	public void removeByLast(){
 		this.numItems--;
-		if(this.numItems <= 0)
-			resetAttributes();
+		if(this.numItems < 0){
+			System.out.println("ERROR: List is empty.");
+			this.numItems = 0;
+		}
 		else
 			this.tail = this.tail.getLeft();
 	}
 
-	private void resetAttributes(){
-		System.out.println("ERROR: list is empty.");
-		this.numItems = 0;
-		if(this.head != null || this.tail != null) {
-			this.tail.setInfo(null);
-			this.head.setInfo(null);
-		}
-		this.head = this.tail = null;
-	}
 }
